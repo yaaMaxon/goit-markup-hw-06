@@ -521,6 +521,9 @@ body {
 }
 
 /* SVG CONTENT */
+.footer-link-wrapper {
+  margin-left: 120px;
+}
 
 .footer-social-link {
   display: flex;
@@ -552,7 +555,7 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  /* gap: 120px; */
 }
 
 /* FOOTER FORM */
@@ -560,7 +563,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: -40px;
+  margin-left: 80px;
 }
 
 .footer-form {
@@ -608,7 +611,7 @@ body {
 
 .footer-form-input:focus {
   outline: none;
-  border: 1px solid var(--green);
+  border: 1px solid var(--iris);
 }
 
 .footer-form-btn {
@@ -636,7 +639,7 @@ body {
 
 .footer-form-btn:hover,
 .footer-form-btn:focus {
-  background: var(--green);
+  background-color: var(--ocean);
 }
 
 .footer-plane-btn-icon {
@@ -856,7 +859,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
 
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   text-align: center;
   letter-spacing: 0.02em;
 
@@ -877,25 +880,20 @@ body {
   border: 1px solid var(--iris);
 }
 
-.modal-form-input-desc {
+.modal-form-field {
   display: block;
-  padding-bottom: 4px;
-  font-weight: 400;
+  margin-bottom: 4px;
+
   font-size: 12px;
   line-height: 1.17;
-
   letter-spacing: 0.04em;
 
   color: var(--light-slate);
 }
 
-.modal-form-field {
-  margin-bottom: 8px;
-}
-
 .modal-form-input-wrapper {
-  display: block;
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-form-input-icon {
